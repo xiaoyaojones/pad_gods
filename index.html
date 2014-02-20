@@ -5,26 +5,33 @@
         <meta name="description" content="pad gods">
         <title>pad gods</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/jpreloader.css">
         <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="js/jpreloader.min.js"></script>
         <script src="js/html2canvas.js"></script>
         <script src="js/canvas2image.js"></script>
         <script src="js/base64.js"></script>
     </head>
     <body>
-        <div class="container" id="container">
-        	<div class="header">
-        		<ul>
-        			<li><img src="images/01.png"></li>
-        			<li><img src="images/02.png"></li>
-        			<li><img src="images/03.png"></li>
-        			<li><img src="images/04.png"></li>
-        			<li><img src="images/05.png"></li>
-        		</ul>
-        	</div>
-        	<div class="body" id="GodBox"></div>
+        <div class="perload" id="perload"></div>
+        <div class="main" id="main">
+            <div class="container" id="container">
+                <div class="header">
+                    <ul>
+                        <li><img src="images/01.png"></li>
+                        <li><img src="images/02.png"></li>
+                        <li><img src="images/03.png"></li>
+                        <li><img src="images/04.png"></li>
+                        <li><img src="images/05.png"></li>
+                    </ul>
+                </div>
+                <div class="body" id="GodBox">
+                    
+                </div>
+            </div>
+            <a href="javascript:" class="generate" id="generate">生成圖片</a>
+            <div class="img_box" id="canvas"></div>
         </div>
-        <a href="javascript:" class="generate" id="generate">生成圖片</a>
-        <div class="img_box" id="canvas"></div>
         <script src="js/data.js"></script>
         <script src="js/god.js"></script>
     </body>

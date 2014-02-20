@@ -67,3 +67,6 @@ img{ vertical-align: middle; }
 	.body .box{ margin-bottom: 0; }
 	.body li img{ width: 90%; }
 }
+
+
+.perload{ height: 0; overflow: hidden; }
